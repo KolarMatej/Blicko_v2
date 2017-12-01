@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Blicko</string>
+    <string name="name_empty_error">Ime ne smije biti prazno</string>
+    <string name="username_hint">Izaberite ime</string>
+    <string name="register_button_text">Registriraj se</string>
+    <string name="login_button_text">Prijavi se</string>
+    <string name="username_key">Username</string>
+    <string name="road_work_button_text">Rad na cesti</string>
+    <string name="accident_button_text">Prometna nesreca</string>
+    <string name="police_button_text">Policija</string>
+    <string name="police_marker_title">Policija!</string>
+    <string name="accident_marker_title">Prometna nesreca</string>
+    <string name="road_work_marker_title">Radovi na cesti</string>
+    <string name="marker_options_title">Izaberi tip upozorenja. :)</string>
+    <string name="email_pattern_error">Neispravan format</string>
+    <string name="email_empty_error">Email ne smije biti prazan!</string>
+    <string name="password_length_error">Lozinka mora imati barem 6 znakova</string>
+    <string name="password_empty_error">Lozinka ne smije biti prazna</string>
+    <string name="email_hint">Vas e-mail</string>
+    <string name="password_hint">Vasa lozinka</string>
+</resources>

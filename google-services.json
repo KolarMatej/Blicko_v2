@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1024248190548",
+    "firebase_url": "https://locationalert-64d70.firebaseio.com",
+    "project_id": "locationalert-64d70",
+    "storage_bucket": "locationalert-64d70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024248190548:android:d3652cde0083c3b1",
+        "android_client_info": {
+          "package_name": "com.example.locationalert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024248190548-ugh0ta6ipu122duajed19hn8v50koh27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.locationalert",
+            "certificate_hash": "b013206a5d177ce217ca5fb81a8bec0c985b9805"
+          }
+        },
+        {
+          "client_id": "1024248190548-4kkfo69tdkdfp50ngfnufqub03evds2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.locationalert",
+            "certificate_hash": "4d461ea94702e928eb059e66f6a4c8a02559475a"
+          }
+        },
+        {
+          "client_id": "1024248190548-tn2eejpkuivi8f11cdpib5com3u5q6e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPHsQ1U-d-Wm-eSVlVqelIEa-kYHeaTII"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024248190548-tn2eejpkuivi8f11cdpib5com3u5q6e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
