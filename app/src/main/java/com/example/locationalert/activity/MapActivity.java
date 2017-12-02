@@ -67,7 +67,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         @Override
         public void run() {
             removeOldMarkers(markers);
-            handler.postDelayed(timerRunnable, 60000);
+            handler.postDelayed(timerRunnable, 300000);
         }
     };
 
@@ -228,11 +228,21 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     }
 
     private void showNotification(MyMarker marker) {
+        if (marker == null) {
+            return;
+        }
+
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String myUserId = user != null ? user.getUid() : "";
         float distance = LocationHelper.getDistance(myLocation, marker);
 
-        if (marker != null && !StringUtils.areEqual(myUserId, marker.getUserId()) && distance < 500) {
+        double timestamp = marker.getTimestamp();
+
+        if (System.currentTimeMillis() > timestamp + 300000) {
+            return;
+        }
+
+        if (!StringUtils.areEqual(myUserId, marker.getUserId()) && distance < 500) {
             NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
             if (Build.VERSION.SDK_INT >= 26 && manager != null) {
